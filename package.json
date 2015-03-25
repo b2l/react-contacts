@@ -1,0 +1,27 @@
+{
+  "name": "react-learning-lunch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "coffeeify": "^1.0.0",
+    "gulp": "^3.8.11",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-webserver": "^0.9.0",
+    "gulp-util": "^3.0.4",
+    "reactify": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^2.6.0"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "react": "^0.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
