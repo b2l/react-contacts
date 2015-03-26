@@ -27553,7 +27553,7 @@ var App = (function (_React$Component) {
             React.createElement(
               "span",
               { className: "contact-item-mail" },
-              contact.emails[0]
+              contact.emails ? contact.emails[0] : ""
             )
           );
         });
@@ -27953,7 +27953,9 @@ var ContactShow = (function (_React$Component) {
       value: function render() {
         var contact = this.props.contact;
         var pictureUrl = contact.picture ? contact.picture : DEFAULT_PICTURE;
-        var emails = contact.emails.map(function (mail) {
+        var emails = undefined;
+
+        if (contact.emails) emails = contact.emails.map(function (mail) {
           return React.createElement(
             "li",
             null,

@@ -10,7 +10,10 @@ class ContactShow extends React.Component {
   render() {
     let contact = this.props.contact;
     let pictureUrl = contact.picture ? contact.picture : DEFAULT_PICTURE;
-    let emails = contact.emails.map( mail => <li>{mail}</li> );
+    let emails;
+
+    if (contact.emails)
+      emails = contact.emails.map( mail => <li>{mail}</li> );
 
     return (
       <div className="modal">

@@ -89,7 +89,7 @@ class App extends React.Component {
           {contact.firstname} {contact.lastname}
         </span>
         <span className="contact-item-mail">
-          {contact.emails[0]}
+          {contact.emails? contact.emails[0] : ''}
         </span>
       </li>
     });
