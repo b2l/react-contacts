@@ -1,0 +1,19 @@
+{
+  "name": "react-learning-lunch",
+  "version": "0.0.0",
+  "authors": [
+    "Nicolas Medda <nicolas.medda@mynewsdesk.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-cloudinary": "~1.0.23",
+    "jquery-ui": "~1.11.4"
+  }
+}
